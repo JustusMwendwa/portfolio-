@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MUTEVU KALUMA | Election 2027</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- Header & Navigation -->
+<header data-aos="fade-down">
+  <div class="logo">
+    <img src="assets/images/party-logo.png" alt="Party Logo" />
+    <h1> ENG <span>MUTEVU</span></h1>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+      <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="#vision"><i class="fas fa-lightbulb"></i> Vision</a></li>
+      <li><a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a></li>
+      <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+      <li><a href="#contact" class="join-movement">Join Movement <i class="fas fa-arrow-right"></i></a></li>
+    </ul>
+    <div class="social-top">
+      <a href="#" class="social-icon" data-tooltip="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon" data-tooltip="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon" data-tooltip="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-icon" data-tooltip="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <button class="menu-toggle" id="menuToggle">☰</button>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+  <div class="slideshow-container" data-aos="zoom-in">
+    <!-- Slide 1 -->
+    <div class="slide active">
+      <img src="images/mutevu1.jpg" alt="Eng Mutevu with Youth"/>
+      <div class="slide-content">
+        <h1>Building a Better Future for <span>Our Nation</span></h1>
+        <p>Together, we can bring progress, unity, and real change in 2027.</p>
+        <a href="#contact" class="btn">Join the Movement <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <!-- Slide 2 -->
+    <div class="slide">
+      <img src="images/mutevu2.jpg" alt="Eng Mutevu with Youth"/>
+      <div class="slide-content">
+        <h1>Empowering <span>Local Communities</span></h1>
+        <p>Education, healthcare, and infrastructure for all Kenyans.</p>
+        <a href="#contact" class="btn">Join the Movement <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="slide">
+      <img src="images/mutevu4.jpg" alt="Eng Mutevu with Youth"/>
+      <div class="slide-content">
+        <h1>Investing in <span>Youth & Innovation</span></h1>
+        <p>Creating jobs and opportunities for the next generation.</p>
+        <a href="#contact" class="btn">Join the Movement <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <a class="prev" onclick="moveSlide(-1)">❮</a>
+    <a class="next" onclick="moveSlide(1)">❯</a>
+
+    <!-- Dots -->
+    <div class="dots-container">
+      <span class="dot active" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about" data-aos="fade-up">
+  <h2 data-aos="fade-down">About <span>ENG MUTEVU</span></h2>
+
+  <div class="about-content">
+    <div class="about-image" data-aos="fade-right">
+      <img src="images/Egnmutevu.jpg" alt="Hon.mutevu"/>
+    </div>
+    <div class="about-text" data-aos="fade-left">
+      <h3>Who I Am</h3>
+      <p>
+        A proud son of Kilome in Makueni County, Hon. Eng. Mutevu has steadily risen through Kenya's political landscape. He holds a Master’s degree in Public Policy from Kenyatta University. Before venturing into politics, he founded "Tujenge Vijana Kilome", a community-based organization that empowered over 5,000 youth with vocational and agribusiness skills. His transformative "Matatu Bora Initiative" improved rural transport by introducing safer, regulated PSV services across Kilome and surrounding wards.
+      </p>
+
+      <h3>Development Record</h3>
+      <div class="achievement-grid">
+        <div class="achievement-item" data-aos="zoom-in">
+          <i class="fas fa-school"></i>
+          <p>Built 12 new ECDE centers</p>
+        </div>
+        <div class="achievement-item" data-aos="zoom-in" data-aos-delay="100">
+          <i class="fas fa-clinic-medical"></i>
+          <p>Upgraded 3 health centers to 24-hour facilities</p>
+        </div>
+        <div class="achievement-item" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fas fa-wifi"></i>
+          <p>Installed free WiFi in 5 markets</p>
+        </div>
+        <div class="achievement-item" data-aos="zoom-in" data-aos-delay="300">
+          <i class="fas fa-road"></i>
+          <p>Tarmacked 8km of access roads</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cards -->
+  <div class="about-cards" data-aos="fade-up">
+    <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+      <div class="card-icon"><i class="fas fa-landmark"></i></div>
+      <h3>Political Journey</h3>
+      <ul>
+        <li><strong>2022-Present:</strong> MP for Starehe Constituency</li>
+        <li><strong>2017-2022:</strong> Chair, Parliamentary Committee on Finance</li>
+        <li><strong>2013-2017:</strong> MCA Kamukunji Ward, Nairobi</li>
+        <li><strong>2010-2013:</strong> Youth Representative, Constitutional Implementation Commission</li>
+      </ul>
+    </div>
+    <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="card-icon"><i class="fas fa-handshake"></i></div>
+      <h3>Core Values</h3>
+      <ul>
+        <li><strong>Integrity:</strong> Returned 37% of office budget to Treasury in 2021</li>
+        <li><strong>Inclusivity:</strong> Pioneered sign language in constituency meetings</li>
+        <li><strong>Innovation:</strong> Launched Kenya's first e-CDF system</li>
+        <li><strong>Service:</strong> Holds monthly public barazas in all wards</li>
+      </ul>
+    </div>
+    <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+      <div class="card-icon"><i class="fas fa-award"></i></div>
+      <h3>Recognitions</h3>
+      <ul>
+        <li>2023: UN-Habitat Urban Leader Award</li>
+        <li>2021: Transparency Kenya Integrity Shield</li>
+        <li>2020: COTU "Best Labour MP"</li>
+        <li>2019: EACC Anti-Corruption Champion</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Vision Section -->
+<section class="vision" id="vision" data-aos="fade-up">
+  <h2>My <span>Vision</span> for 2027</h2>
+  <div class="vision-grid">
+    <div class="vision-card" data-aos="zoom-in">
+      <i class="fas fa-heartbeat"></i>
+      <h3>Healthcare</h3>
+      <p>10 new hospitals by 2030.</p>
+    </div>
+    <div class="vision-card" data-aos="zoom-in" data-aos-delay="100">
+      <i class="fas fa-graduation-cap"></i>
+      <h3>Education</h3>
+      <p>Free education for underprivileged children.</p>
+    </div>
+    <div class="vision-card" data-aos="zoom-in" data-aos-delay="200">
+      <i class="fas fa-briefcase"></i>
+      <h3>Employment</h3>
+      <p>1 million new jobs by 2028.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Achievements Section -->
+<section class="achievements-section" id="achievements" data-aos="fade-up">
+  <h2>Key <span>Achievements</span></h2>
+  <div class="achievements-container">
+    <div class="achievement-card" data-aos="fade-up">
+      <div class="achievement-icon"><i class="fas fa-school"></i></div>
+      <h4>12 ECDE Centers</h4>
+      <p>Built 12 modern Early Childhood Development centers.</p>
+    </div>
+    <div class="achievement-card" data-aos="fade-up" data-aos-delay="100">
+      <div class="achievement-icon"><i class="fas fa-clinic-medical"></i></div>
+      <h4>24-Hour Clinics</h4>
+      <p>Upgraded 3 health centers to 24-hour operational status.</p>
+    </div>
+    <div class="achievement-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="achievement-icon"><i class="fas fa-wifi"></i></div>
+      <h4>Free Market WiFi</h4>
+      <p>Installed public WiFi in 5 major local markets.</p>
+    </div>
+    <div class="achievement-card" data-aos="fade-up" data-aos-delay="300">
+      <div class="achievement-icon"><i class="fas fa-road"></i></div>
+      <h4>8km Roads</h4>
+      <p>Tarmacked 8 kilometers of feeder roads in the constituency.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact" data-aos="fade-up">
+  <h2>Join the <span>Movement</span></h2>
+  <div class="contact-content">
+    <div class="contact-form" data-aos="fade-right">
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+    <div class="contact-info" data-aos="fade-left">
+      <h3>Connect With Us</h3>
+      <p><i class="fas fa-phone"></i> +257 04 304 222</p>
+      <p><i class="fas fa-envelope"></i> justusmwendwa022@gmail.com</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer >
+  <p>&copy; 2025 ENG MUTEVU Campaign. All Rights Reserved.</p>
+</footer>
+
+<!-- Scripts -->
+<script src="script.js"></script>
+
+<!-- AOS Script -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1200,
+    once: true
+  });
+</script>
+</body>
+</html>
